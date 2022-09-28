@@ -1,0 +1,35 @@
+http://localhost:8082/department/ - POST - Creates Department
+{
+    "departmentName": "it",
+    "description": "it services"
+}
+
+http://localhost:8082/department/ - GET - Gets All Departments
+
+http://localhost:8082/department/{departmentName} - GET - Gets Department
+
+http://localhost:8082/department?departmentId=1 - DELETE - Delete Department
+
+http://localhost:8082/employee - POST - Create Employee
+{
+    "departmentName": "it",
+    "firstName": "Ramesh",
+    "lastName": "Murugan",
+    "mobileNumber": "9876543210",
+    "address": {
+        "city": "chennai",
+        "state": "tn",
+        "houseNoAndFloorName": "s2",
+        "street": "Nagar",
+        "pincode": 6255
+    }
+}
+
+http://localhost:8082/employee/2?firstName=Ram - PATCH -> Update Firstname
+
+http://localhost:8082/employee?employeeId=2 - Delete -> Delete employee
+
+
+
+
+
